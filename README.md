@@ -1,8 +1,8 @@
 # Waste-To-Wellness
-Problem Statement
+Problem Statement:
 Food waste is a significant global issue that not only contributes to environmental degradation but also exacerbates the problem of food insecurity. According to the Food and Agriculture Organization (FAO) of the United Nations, approximately one-third of all food produced for human consumption is lost or wasted each year. At the same time, millions of people around the world suffer from hunger and lack access to nutritious food.
 
-Solution
+Solution:
 Our platform provides a proactive approach to food recycling by leveraging technology and collaboration. Here's how it works:
 
 Efficient Collection: We partner with marriage halls, restaurants, parties, and other food suppliers to collect surplus food before it goes to waste. Our team ensures that the collection process is streamlined, time-sensitive, and adheres to safety and hygiene standards.
