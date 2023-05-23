@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donate">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/don"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_below="@+id/first"
+        android:id="@+id/text1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If any individual or an organisation is interested to donate food, they can donate it here."
+        android:layout_marginBottom="20dp"/>
+
+
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <EditText
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:hint="NAME"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"/>
+        <EditText
+            android:id="@+id/desc"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:hint="NUMBER"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_below="@+id/topic"
+            android:background="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/des"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:hint="No. of persons food"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_below="@+id/desc"
+            android:background="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/dec"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:hint="Street,City,State"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_below="@+id/des"
+            android:background="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/messagingNot"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:hint="Donate"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_below="@+id/dec"
+            android:background="#E91E63"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="onClick"/>
+</RelativeLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

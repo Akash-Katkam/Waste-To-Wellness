@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiveStarHostel">\
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/fp3"/>
+
+    <TextView
+        android:layout_below="@+id/first"
+        android:id="@+id/text1"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As many events are happening across the city, if there’s any food left after the event, The respective event co-ordinator or hotel/restaurant will use our app and fill the necessary details. This will send a notification to both the server and to the Control room who will collect the food from that place and distribute to the slum areas.
+
+" />
+
+    <!--<ImageView-->
+        <!--android:layout_below="@+id/text1"-->
+        <!--android:id="@+id/scn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:src="@drawable/back"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_below="@+id/first"-->
+        <!--android:id="@+id/text2"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="fghjk"/>-->
+
+    <Button
+        android:layout_below="@+id/text1"
+        android:id="@+id/btn_hotel"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:hint="Donate"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#E91E63"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/back"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".wifiTalkie">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat as Donar"
+        android:id="@+id/btHost"
+        android:onClick="click"
+        android:layout_above="@+id/btJoin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat as Controll room"
+        android:id="@+id/btJoin"
+        android:onClick="click"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btHost"
+        android:layout_alignStart="@+id/btHost"
+        android:layout_alignRight="@+id/btHost"
+        android:layout_alignEnd="@+id/btHost" />
+
+</RelativeLayout>

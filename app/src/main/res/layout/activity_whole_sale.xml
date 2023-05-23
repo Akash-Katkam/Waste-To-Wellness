@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WholeSale">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/expire"/>
+
+    <TextView
+        android:layout_below="@+id/first"
+        android:id="@+id/text1"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sometimes reatiler or wholesaler have large amount of items which have expiry in one 30 to 40 days, but they know they know they cannot sold in few days so they can register their product and those who need it can buy from them at low price"/>
+
+    <Button
+        android:id="@+id/btn_whole"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:hint="Donate"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#E91E63"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+</RelativeLayout>

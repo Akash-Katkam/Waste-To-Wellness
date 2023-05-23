@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Save Food Save Earth"
+        android:textSize="28sp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#1b1b1b"
+        android:textStyle="bold"/>
+
+    <AdapterViewFlipper
+        android:id="@+id/adapterViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/heading"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"></AdapterViewFlipper>
+<LinearLayout
+    android:id="@+id/temp1"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/temp1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Tons of food collected:"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text=""/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Number of poeple got feed:"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text=""/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="No. of cities reached:"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="6">
+        <ImageButton
+            android:id="@+id/e1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/home"/>
+        <ImageButton
+            android:id="@+id/e4"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/food"/>
+        <ImageButton
+            android:id="@+id/e5"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shop"/>
+        <ImageButton
+            android:id="@+id/e2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/donate"/>
+        <ImageButton
+            android:id="@+id/e3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/leaderboard"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
